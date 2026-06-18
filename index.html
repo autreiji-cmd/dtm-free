@@ -3,10 +3,177 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>無料MIDI配布所</title>
-<meta http-equiv="refresh" content="0; url=midi/fallen-angel/">
+<title>無料MIDI配布所 | DTM制作素材まとめ</title>
+<meta name="description" content="ボカロP・DTMer向けの無料MIDIファイル配布所。コード進行・ドラムパターン・民族音楽スケール。商用利用OK・クレジット不要。">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: #0a0a12; color: #e6e6f0;
+    font-family: "Hiragino Sans","Hiragino Kaku Gothic ProN",sans-serif;
+    min-height: 100vh; padding: 40px 16px;
+  }
+  .site-header { text-align: center; margin-bottom: 48px; }
+  .site-header h1 { font-size: clamp(24px, 5vw, 42px); color: #fff; margin-bottom: 8px; }
+  .site-header p { font-size: 14px; color: #888; }
+  .free-tag { display: inline-block; background: #500030; color: #ff6090; font-size: 12px; padding: 3px 10px; border-radius: 3px; margin-bottom: 12px; }
+  .filter-bar { display: flex; gap: 8px; justify-content: center; flex-wrap: wrap; margin-bottom: 36px; }
+  .filter-btn {
+    padding: 8px 20px; border-radius: 20px; border: 1px solid #2a1a3a;
+    background: #14101e; color: #aaa; cursor: pointer; font-size: 13px;
+    transition: all .2s;
+  }
+  .filter-btn.active, .filter-btn:hover { border-color: #a028d0; color: #fff; background: #1e102e; }
+  .filter-btn[data-filter="chord"].active { border-color: #a028d0; background: #a028d012; color: #c060f0; }
+  .filter-btn[data-filter="drum"].active  { border-color: #d07020; background: #d0702012; color: #f09040; }
+  .filter-btn[data-filter="niche"].active { border-color: #1ea080; background: #1ea08012; color: #40d0a8; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 16px; max-width: 960px; margin: 0 auto; }
+  .card {
+    display: flex; flex-direction: column; gap: 8px;
+    background: #14101e; border: 1px solid #2a1a3a; border-radius: 10px;
+    padding: 20px 18px; text-decoration: none; color: #e6e6f0;
+    transition: border-color .2s, transform .15s;
+  }
+  .card:hover { border-color: #a028d0; transform: translateY(-2px); }
+  .cat-badge { font-size: 11px; padding: 2px 8px; border-radius: 3px; align-self: flex-start; }
+  .card-title { font-size: 15px; font-weight: bold; line-height: 1.4; flex: 1; }
+  .bpm { font-size: 11px; color: #666; }
+  .card-dl { font-size: 12px; color: #a028d0; margin-top: 4px; }
+  .card.hidden { display: none; }
+  footer { text-align: center; font-size: 12px; color: #333; margin-top: 64px; }
+</style>
 </head>
 <body>
-<p>リダイレクト中...</p>
+<header class="site-header">
+  <p class="free-tag">ALL FREE</p>
+  <h1>無料MIDI配布所</h1>
+  <p>ボカロP・DTMer向け制作素材 / 商用利用OK / クレジット不要</p>
+</header>
+
+<div class="filter-bar">
+  <button class="filter-btn active" data-filter="all">すべて (17)</button>
+  <button class="filter-btn" data-filter="chord">コード進行</button>
+  <button class="filter-btn" data-filter="drum">ドラムパターン</button>
+  <button class="filter-btn" data-filter="niche">ニッチスケール</button>
+</div>
+
+<div class="grid">
+    <a class="card" href="midi/jpop-4536/" data-cat="chord">
+      <span class="cat-badge" style="background:#a028d022;color:#a028d0">コード進行</span>
+      <p class="card-title">4536進行 -Eternal Loop-</p>
+      <span class="bpm">BPM 95</span>
+      <span class="card-dl">▼ ダウンロード</span>
+    </a>
+    <a class="card" href="midi/lofi-hiphop/" data-cat="chord">
+      <span class="cat-badge" style="background:#a028d022;color:#a028d0">コード進行</span>
+      <p class="card-title">Lo-fi 4コード -Rainy Afternoon-</p>
+      <span class="bpm">BPM 75</span>
+      <span class="card-dl">▼ ダウンロード</span>
+    </a>
+    <a class="card" href="midi/citypop/" data-cat="chord">
+      <span class="cat-badge" style="background:#a028d022;color:#a028d0">コード進行</span>
+      <p class="card-title">シティポップ進行 -Summer Drive-</p>
+      <span class="bpm">BPM 100</span>
+      <span class="card-dl">▼ ダウンロード</span>
+    </a>
+    <a class="card" href="midi/emotional-minor/" data-cat="chord">
+      <span class="cat-badge" style="background:#a028d022;color:#a028d0">コード進行</span>
+      <p class="card-title">切ない進行 -Last Scene-</p>
+      <span class="bpm">BPM 80</span>
+      <span class="card-dl">▼ ダウンロード</span>
+    </a>
+    <a class="card" href="midi/anime-op/" data-cat="chord">
+      <span class="cat-badge" style="background:#a028d022;color:#a028d0">コード進行</span>
+      <p class="card-title">アニソン王道進行 -Rising Hope-</p>
+      <span class="bpm">BPM 140</span>
+      <span class="card-dl">▼ ダウンロード</span>
+    </a>
+    <a class="card" href="midi/vaporwave/" data-cat="chord">
+      <span class="cat-badge" style="background:#a028d022;color:#a028d0">コード進行</span>
+      <p class="card-title">Vaporwave進行 -Neon Mall-</p>
+      <span class="bpm">BPM 88</span>
+      <span class="card-dl">▼ ダウンロード</span>
+    </a>
+    <a class="card" href="midi/drum-lofi/" data-cat="drum">
+      <span class="cat-badge" style="background:#d0702022;color:#d07020">ドラムパターン</span>
+      <p class="card-title">Lo-fi ドラムパターン -Lazy Sunday-</p>
+      <span class="bpm">BPM 75</span>
+      <span class="card-dl">▼ ダウンロード</span>
+    </a>
+    <a class="card" href="midi/drum-hiphop/" data-cat="drum">
+      <span class="cat-badge" style="background:#d0702022;color:#d07020">ドラムパターン</span>
+      <p class="card-title">HipHop Boom Bap -Street Beat-</p>
+      <span class="bpm">BPM 90</span>
+      <span class="card-dl">▼ ダウンロード</span>
+    </a>
+    <a class="card" href="midi/drum-trap/" data-cat="drum">
+      <span class="cat-badge" style="background:#d0702022;color:#d07020">ドラムパターン</span>
+      <p class="card-title">Trap ハイハット -Dark Trap-</p>
+      <span class="bpm">BPM 140</span>
+      <span class="card-dl">▼ ダウンロード</span>
+    </a>
+    <a class="card" href="midi/drum-dnb/" data-cat="drum">
+      <span class="cat-badge" style="background:#d0702022;color:#d07020">ドラムパターン</span>
+      <p class="card-title">Amen Break風 -Jungle Step-</p>
+      <span class="bpm">BPM 174</span>
+      <span class="card-dl">▼ ダウンロード</span>
+    </a>
+    <a class="card" href="midi/drum-citypop/" data-cat="drum">
+      <span class="cat-badge" style="background:#d0702022;color:#d07020">ドラムパターン</span>
+      <p class="card-title">シティポップ ドラム -Groove 80s-</p>
+      <span class="bpm">BPM 100</span>
+      <span class="card-dl">▼ ダウンロード</span>
+    </a>
+    <a class="card" href="midi/ryukyu-scale/" data-cat="niche">
+      <span class="cat-badge" style="background:#1ea08022;color:#1ea080">ニッチスケール</span>
+      <p class="card-title">琉球音階進行 -Shima Uta-</p>
+      <span class="bpm">BPM 84</span>
+      <span class="card-dl">▼ ダウンロード</span>
+    </a>
+    <a class="card" href="midi/miyakobushi/" data-cat="niche">
+      <span class="cat-badge" style="background:#1ea08022;color:#1ea080">ニッチスケール</span>
+      <p class="card-title">都節音階 -怪談夜話-</p>
+      <span class="bpm">BPM 72</span>
+      <span class="card-dl">▼ ダウンロード</span>
+    </a>
+    <a class="card" href="midi/hijaz-maqam/" data-cat="niche">
+      <span class="cat-badge" style="background:#1ea08022;color:#1ea080">ニッチスケール</span>
+      <p class="card-title">ヒジャーズ音階 -Desert Wind-</p>
+      <span class="bpm">BPM 88</span>
+      <span class="card-dl">▼ ダウンロード</span>
+    </a>
+    <a class="card" href="midi/celtic-dorian/" data-cat="niche">
+      <span class="cat-badge" style="background:#1ea08022;color:#1ea080">ニッチスケール</span>
+      <p class="card-title">ケルトドリアン -Ancient Forest-</p>
+      <span class="bpm">BPM 96</span>
+      <span class="card-dl">▼ ダウンロード</span>
+    </a>
+    <a class="card" href="midi/blues-shuffle/" data-cat="niche">
+      <span class="cat-badge" style="background:#1ea08022;color:#1ea080">ニッチスケール</span>
+      <p class="card-title">ブルース・シャッフル -Midnight Train-</p>
+      <span class="bpm">BPM 92</span>
+      <span class="card-dl">▼ ダウンロード</span>
+    </a>
+    <a class="card" href="midi/jazz-ballad/" data-cat="niche">
+      <span class="cat-badge" style="background:#1ea08022;color:#1ea080">ニッチスケール</span>
+      <p class="card-title">ジャズバラードII-V-I -Rainy Night-</p>
+      <span class="bpm">BPM 62</span>
+      <span class="card-dl">▼ ダウンロード</span>
+    </a>
+</div>
+
+<footer>© autreiji-cmd / 無料MIDI配布所 — <a href="https://github.com/autreiji-cmd/dtm-free" style="color:#555">GitHub</a></footer>
+
+<script>
+const btns = document.querySelectorAll('.filter-btn');
+const cards = document.querySelectorAll('.card');
+btns.forEach(btn => {
+  btn.addEventListener('click', () => {
+    btns.forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    const f = btn.dataset.filter;
+    cards.forEach(c => c.classList.toggle('hidden', f !== 'all' && c.dataset.cat !== f));
+  });
+});
+</script>
 </body>
 </html>
