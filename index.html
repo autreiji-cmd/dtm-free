@@ -34,6 +34,8 @@
     transition: border-color .2s, transform .15s;
   }
   .card:hover { border-color: #a028d0; transform: translateY(-2px); }
+  .card-thumb { width: 100%; aspect-ratio: 1200/630; overflow: hidden; border-radius: 6px; margin-bottom: 4px; background: #0a0a1a; }
+  .card-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
   .cat-badge { font-size: 11px; padding: 2px 8px; border-radius: 3px; align-self: flex-start; }
   .card-title { font-size: 15px; font-weight: bold; line-height: 1.4; flex: 1; }
   .bpm { font-size: 11px; color: #666; }
@@ -58,102 +60,119 @@
 
 <div class="grid">
     <a class="card" href="midi/jpop-4536/" data-cat="chord">
+      <div class="card-thumb"><img src="media/jpop_4536_preview.jpg" alt="4536進行 -Eternal Loop-" loading="lazy"></div>
       <span class="cat-badge" style="background:#a028d022;color:#a028d0">コード進行</span>
       <p class="card-title">4536進行 -Eternal Loop-</p>
       <span class="bpm">BPM 95</span>
       <span class="card-dl">▼ ダウンロード</span>
     </a>
     <a class="card" href="midi/lofi-hiphop/" data-cat="chord">
+      <div class="card-thumb"><img src="media/lofi_hiphop_preview.jpg" alt="Lo-fi 4コード -Rainy Afternoon-" loading="lazy"></div>
       <span class="cat-badge" style="background:#a028d022;color:#a028d0">コード進行</span>
       <p class="card-title">Lo-fi 4コード -Rainy Afternoon-</p>
       <span class="bpm">BPM 75</span>
       <span class="card-dl">▼ ダウンロード</span>
     </a>
     <a class="card" href="midi/citypop/" data-cat="chord">
+      <div class="card-thumb"><img src="media/citypop_progression_preview.jpg" alt="シティポップ進行 -Summer Drive-" loading="lazy"></div>
       <span class="cat-badge" style="background:#a028d022;color:#a028d0">コード進行</span>
       <p class="card-title">シティポップ進行 -Summer Drive-</p>
       <span class="bpm">BPM 100</span>
       <span class="card-dl">▼ ダウンロード</span>
     </a>
     <a class="card" href="midi/emotional-minor/" data-cat="chord">
+      <div class="card-thumb"><img src="media/emotional_minor_preview.jpg" alt="切ない進行 -Last Scene-" loading="lazy"></div>
       <span class="cat-badge" style="background:#a028d022;color:#a028d0">コード進行</span>
       <p class="card-title">切ない進行 -Last Scene-</p>
       <span class="bpm">BPM 80</span>
       <span class="card-dl">▼ ダウンロード</span>
     </a>
     <a class="card" href="midi/anime-op/" data-cat="chord">
+      <div class="card-thumb"><img src="media/anime_op_preview.jpg" alt="アニソン王道進行 -Rising Hope-" loading="lazy"></div>
       <span class="cat-badge" style="background:#a028d022;color:#a028d0">コード進行</span>
       <p class="card-title">アニソン王道進行 -Rising Hope-</p>
       <span class="bpm">BPM 140</span>
       <span class="card-dl">▼ ダウンロード</span>
     </a>
     <a class="card" href="midi/vaporwave/" data-cat="chord">
+      <div class="card-thumb"><img src="media/vaporwave_preview.jpg" alt="Vaporwave進行 -Neon Mall-" loading="lazy"></div>
       <span class="cat-badge" style="background:#a028d022;color:#a028d0">コード進行</span>
       <p class="card-title">Vaporwave進行 -Neon Mall-</p>
       <span class="bpm">BPM 88</span>
       <span class="card-dl">▼ ダウンロード</span>
     </a>
     <a class="card" href="midi/drum-lofi/" data-cat="drum">
+      <div class="card-thumb"><img src="media/drum_lofi_basic_preview.jpg" alt="Lo-fi ドラムパターン -Lazy Sunday-" loading="lazy"></div>
       <span class="cat-badge" style="background:#d0702022;color:#d07020">ドラムパターン</span>
       <p class="card-title">Lo-fi ドラムパターン -Lazy Sunday-</p>
       <span class="bpm">BPM 75</span>
       <span class="card-dl">▼ ダウンロード</span>
     </a>
     <a class="card" href="midi/drum-hiphop/" data-cat="drum">
+      <div class="card-thumb"><img src="media/drum_hiphop_boom_preview.jpg" alt="HipHop Boom Bap -Street Beat-" loading="lazy"></div>
       <span class="cat-badge" style="background:#d0702022;color:#d07020">ドラムパターン</span>
       <p class="card-title">HipHop Boom Bap -Street Beat-</p>
       <span class="bpm">BPM 90</span>
       <span class="card-dl">▼ ダウンロード</span>
     </a>
     <a class="card" href="midi/drum-trap/" data-cat="drum">
+      <div class="card-thumb"><img src="media/drum_trap_preview.jpg" alt="Trap ハイハット -Dark Trap-" loading="lazy"></div>
       <span class="cat-badge" style="background:#d0702022;color:#d07020">ドラムパターン</span>
       <p class="card-title">Trap ハイハット -Dark Trap-</p>
       <span class="bpm">BPM 140</span>
       <span class="card-dl">▼ ダウンロード</span>
     </a>
     <a class="card" href="midi/drum-dnb/" data-cat="drum">
+      <div class="card-thumb"><img src="media/drum_dnb_preview.jpg" alt="Amen Break風 -Jungle Step-" loading="lazy"></div>
       <span class="cat-badge" style="background:#d0702022;color:#d07020">ドラムパターン</span>
       <p class="card-title">Amen Break風 -Jungle Step-</p>
       <span class="bpm">BPM 174</span>
       <span class="card-dl">▼ ダウンロード</span>
     </a>
     <a class="card" href="midi/drum-citypop/" data-cat="drum">
+      <div class="card-thumb"><img src="media/drum_city_pop_preview.jpg" alt="シティポップ ドラム -Groove 80s-" loading="lazy"></div>
       <span class="cat-badge" style="background:#d0702022;color:#d07020">ドラムパターン</span>
       <p class="card-title">シティポップ ドラム -Groove 80s-</p>
       <span class="bpm">BPM 100</span>
       <span class="card-dl">▼ ダウンロード</span>
     </a>
     <a class="card" href="midi/ryukyu-scale/" data-cat="niche">
+      <div class="card-thumb"><img src="media/ryukyu_scale_preview.jpg" alt="琉球音階進行 -Shima Uta-" loading="lazy"></div>
       <span class="cat-badge" style="background:#1ea08022;color:#1ea080">ニッチスケール</span>
       <p class="card-title">琉球音階進行 -Shima Uta-</p>
       <span class="bpm">BPM 84</span>
       <span class="card-dl">▼ ダウンロード</span>
     </a>
     <a class="card" href="midi/miyakobushi/" data-cat="niche">
+      <div class="card-thumb"><img src="media/miyakobushi_preview.jpg" alt="都節音階 -怪談夜話-" loading="lazy"></div>
       <span class="cat-badge" style="background:#1ea08022;color:#1ea080">ニッチスケール</span>
       <p class="card-title">都節音階 -怪談夜話-</p>
       <span class="bpm">BPM 72</span>
       <span class="card-dl">▼ ダウンロード</span>
     </a>
     <a class="card" href="midi/hijaz-maqam/" data-cat="niche">
+      <div class="card-thumb"><img src="media/hijaz_maqam_preview.jpg" alt="ヒジャーズ音階 -Desert Wind-" loading="lazy"></div>
       <span class="cat-badge" style="background:#1ea08022;color:#1ea080">ニッチスケール</span>
       <p class="card-title">ヒジャーズ音階 -Desert Wind-</p>
       <span class="bpm">BPM 88</span>
       <span class="card-dl">▼ ダウンロード</span>
     </a>
     <a class="card" href="midi/celtic-dorian/" data-cat="niche">
+      <div class="card-thumb"><img src="media/celtic_dorian_preview.jpg" alt="ケルトドリアン -Ancient Forest-" loading="lazy"></div>
       <span class="cat-badge" style="background:#1ea08022;color:#1ea080">ニッチスケール</span>
       <p class="card-title">ケルトドリアン -Ancient Forest-</p>
       <span class="bpm">BPM 96</span>
       <span class="card-dl">▼ ダウンロード</span>
     </a>
     <a class="card" href="midi/blues-shuffle/" data-cat="niche">
+      <div class="card-thumb"><img src="media/blues_shuffle_preview.jpg" alt="ブルース・シャッフル -Midnight Train-" loading="lazy"></div>
       <span class="cat-badge" style="background:#1ea08022;color:#1ea080">ニッチスケール</span>
       <p class="card-title">ブルース・シャッフル -Midnight Train-</p>
       <span class="bpm">BPM 92</span>
       <span class="card-dl">▼ ダウンロード</span>
     </a>
     <a class="card" href="midi/jazz-ballad/" data-cat="niche">
+      <div class="card-thumb"><img src="media/jazz_ballad_human_preview.jpg" alt="ジャズバラードII-V-I -Rainy Night-" loading="lazy"></div>
       <span class="cat-badge" style="background:#1ea08022;color:#1ea080">ニッチスケール</span>
       <p class="card-title">ジャズバラードII-V-I -Rainy Night-</p>
       <span class="bpm">BPM 62</span>
